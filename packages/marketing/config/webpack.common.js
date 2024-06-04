@@ -5,7 +5,9 @@ module.exports = {
 
       /* @ Babel */
       {
-        test: /\.m?js$/,
+        // test: /\.m?js$/,
+        // Enable support for JSX
+        test: /\.(m?js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -16,5 +18,8 @@ module.exports = {
         },
       },
     ],
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'],
   },
 };
