@@ -8,8 +8,9 @@ const devConfig = {
   mode: 'development',
   devServer: {
     port: 8081,
+    // historyApiFallback: true,
     historyApiFallback: {
-      index: 'index.html',
+      index: '/index.html',
     },
   },
   plugins: [
