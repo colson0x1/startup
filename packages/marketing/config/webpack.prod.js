@@ -7,6 +7,7 @@ const prodConfig = {
   mode: 'production',
   output: {
     filename: '[name].[contenthash].js',
+    // Point remoteEntry.js to correct folder inside of a Amazon S3 Bucket
     publicPath: '/marketing/latest/',
   },
   plugins: [

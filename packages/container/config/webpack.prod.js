@@ -10,6 +10,9 @@ const prodConfig = {
   output: {
     // This is done primarily for caching issues
     filename: '[name].[contenthash].js',
+    // Point all the different scripts tags inside of HTML file refer to the
+    // correct location of all the different JavaScript files inside of
+    // Amazon S3 Bucket
     publicPath: '/container/latest/',
   },
   plugins: [
