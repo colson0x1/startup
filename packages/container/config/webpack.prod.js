@@ -10,6 +10,7 @@ const prodConfig = {
   output: {
     // This is done primarily for caching issues
     filename: '[name].[contenthash].js',
+    // Resolve Webpack HTML Plugin to generate correct script url in Production
     publicPath: '/container/latest/',
   },
   plugins: [
