@@ -10,7 +10,7 @@ const prodConfig = {
   output: {
     // This is done primarily for caching issues
     filename: '[name].[contenthash].js',
-    /* publicPath: '/container/latest/', */
+    publicPath: '/container/latest/',
   },
   plugins: [
     new ModuleFederationPlugin({
