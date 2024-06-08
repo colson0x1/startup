@@ -16,7 +16,7 @@ function Copyright() {
     <Typography variant='body2' color='textSecondary' align='center'>
       {'Copyright © '}
       <MaterialLink component={Link} to='/' color='inherit'>
-        Your Website
+        COLSON @ Stillhome -
       </MaterialLink>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -87,9 +87,10 @@ export default function Album() {
               color='textSecondary'
               paragraph
             >
-              Something short and leading about the collection below—its
-              contents, the creator, etc. Make it short and sweet, but not too
-              short so folks don&apos;t simply skip over it entirely.
+              Dive into a world of unparalleled shopping experiences. Explore
+              unique finds, uncover hidden gems, and embark on an adventure with
+              every click. With us, your shopping journey is as thrilling as the
+              treasures you'll discover.
             </Typography>
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justifyContent='center'>
@@ -126,10 +127,7 @@ export default function Album() {
                     <Typography gutterBottom variant='h5' component='h2'>
                       Heading
                     </Typography>
-                    <Typography>
-                      This is a media card. You can use this section to describe
-                      the content.
-                    </Typography>
+                    <Typography>This is a media card.</Typography>
                   </CardContent>
                   <CardActions>
                     <Button size='small' color='primary'>
@@ -156,7 +154,11 @@ export default function Album() {
           color='textSecondary'
           component='p'
         >
-          Something here to give the footer a purpose!
+          THE MILLIONAIRES CLUB!
+          <br />
+          <a href='https://github.com/colson0x1' target='_blank'>
+            https://github.com/colson0x1
+          </a>
         </Typography>
         <Copyright />
       </footer>
