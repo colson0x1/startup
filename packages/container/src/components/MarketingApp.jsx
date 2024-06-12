@@ -17,6 +17,7 @@ export default () => {
 
   useEffect(() => {
     const { onParentNavigate } = mount(ref.current, {
+      initialPath: history.location.pathname,
       onNavigate: ({ pathname: nextPathname }) => {
         // console.log('The container noticed navigation in Marketing');
         // console.log(location)
@@ -30,7 +31,7 @@ export default () => {
       },
     });
 
-    history.listen(onParentNavigate)
+    history.listen(onParentNavigate);
   }, []);
 
   return <div ref={ref} />;
