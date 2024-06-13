@@ -1,3 +1,5 @@
+/* @ Marketing Microfrontend */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { createMemoryHistory, createBrowserHistory } from 'history';
