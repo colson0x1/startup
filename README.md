@@ -192,14 +192,6 @@ npm start
 npm start
 ```
 
-### Adding New Microfrontends
-
-To add a new microfrontend:
-
-1. **Create Application**: Scaffold a new React or Vue.js application in a separate directory.
-2. **Configure Webpack**: Update webpack configuration to expose and consume modules as needed.
-3. **Integrate with Host**: Modify host application to load new microfrontend dynamically using Webpack Module Federation APIs.
-
 ### Building Applications
 
 To build applications for production:
