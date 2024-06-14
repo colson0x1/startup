@@ -1,4 +1,10 @@
-/* @ Container Microfrontend */
+/* @ Container Microfrontend (Host) */
+/* Sub Apps (Remotes):
+ * - auth
+ * - container
+ * - dashboard
+ * - marketing
+ */
 
 import React from 'react';
 import ReactDOM from 'react-dom';

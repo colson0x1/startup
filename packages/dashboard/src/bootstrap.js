@@ -1,4 +1,4 @@
-/* @ Dashboard Microfrontend */
+/* @ Dashboard Microfrontend (Vue) */
 
 import { createApp } from 'vue';
 import Dashboard from './components/Dashboard.vue';
